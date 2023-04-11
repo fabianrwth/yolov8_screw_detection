@@ -1,0 +1,13 @@
+ultralytics.yolo.utils.metrics.DetMetrics object with attributes:
+
+ap_class_index: array([0])
+box: ultralytics.yolo.utils.metrics.Metric object
+confusion_matrix: <ultralytics.yolo.utils.metrics.ConfusionMatrix object at 0x00000290C733ECD0>
+fitness: 0.08677185255915097
+keys: ['metrics/precision(B)', 'metrics/recall(B)', 'metrics/mAP50(B)', 'metrics/mAP50-95(B)']
+maps: array([   0.069792])
+names: {0: 'fastener'}
+plot: True
+results_dict: {'metrics/precision(B)': 0.361586801333674, 'metrics/recall(B)': 0.21, 'metrics/mAP50(B)': 0.23958610247373907, 'metrics/mAP50-95(B)': 0.06979249145753007, 'fitness': 0.08677185255915097}
+save_dir: WindowsPath('runs/detect/val3')
+speed: {'preprocess': 4.030823707580566, 'inference': 378.1748215357463, 'loss': 0.0, 'postprocess': 9.848664204279581}
