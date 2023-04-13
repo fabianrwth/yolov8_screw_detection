@@ -1,13 +1,13 @@
 ultralytics.yolo.utils.metrics.DetMetrics object with attributes:
 
-ap_class_index: array([0])
+ap_class_index: array([0, 1])
 box: ultralytics.yolo.utils.metrics.Metric object
-confusion_matrix: <ultralytics.yolo.utils.metrics.ConfusionMatrix object at 0x00000290C733ECD0>
-fitness: 0.08677185255915097
+confusion_matrix: <ultralytics.yolo.utils.metrics.ConfusionMatrix object at 0x000002B11DA52CA0>
+fitness: 0.5195303790516441
 keys: ['metrics/precision(B)', 'metrics/recall(B)', 'metrics/mAP50(B)', 'metrics/mAP50-95(B)']
-maps: array([   0.069792])
-names: {0: 'fastener'}
+maps: array([     0.2535,     0.73043])
+names: {0: '0', 1: '1'}
 plot: True
-results_dict: {'metrics/precision(B)': 0.361586801333674, 'metrics/recall(B)': 0.21, 'metrics/mAP50(B)': 0.23958610247373907, 'metrics/mAP50-95(B)': 0.06979249145753007, 'fitness': 0.08677185255915097}
-save_dir: WindowsPath('runs/detect/val3')
-speed: {'preprocess': 4.030823707580566, 'inference': 378.1748215357463, 'loss': 0.0, 'postprocess': 9.848664204279581}
+results_dict: {'metrics/precision(B)': 0.7304960391162914, 'metrics/recall(B)': 0.758076690821256, 'metrics/mAP50(B)': 0.767624117773037, 'metrics/mAP50-95(B)': 0.49196440808260045, 'fitness': 0.5195303790516441}
+save_dir: WindowsPath('runs/detect/val4')
+speed: {'preprocess': 1.8897307546515214, 'inference': 182.2186269258198, 'loss': 0.0, 'postprocess': 10.971012868379292}
