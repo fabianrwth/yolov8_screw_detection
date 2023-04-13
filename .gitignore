@@ -1,3 +1,4 @@
 dataset/*
+dataset_mvtec/*
 dataset_downsized/*
 temp.*
